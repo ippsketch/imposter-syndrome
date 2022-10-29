@@ -9,7 +9,6 @@ function random_hah() {
   return hah;
 }
 let hash = random_hah();
-hash = '0x1574878b4c2279ff2e38a2d7c4065d01b7c6f0de3595a400e06af0123da2dda3'
 
 let t,s,S=Uint32Array.from([0,1,s=t=2,3].map(i=>parseInt(hash.substr(i*8+5,8),16)));
 // S=Uint32Array.from([0,1,s=t=2,3].map(i=>parseInt(tokenData.hash.substr(i*8+5,8),16)));
